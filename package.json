@@ -1,0 +1,25 @@
+{
+  "name": "yukiko-open-source",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asthriona/Yukiko.git"
+  },
+  "author": "Asthriona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asthriona/Yukiko/issues"
+  },
+  "homepage": "https://github.com/Asthriona/Yukiko#readme",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "discord.js": "^12.2.0",
+    "superagent": "^5.3.1"
+  }
+}

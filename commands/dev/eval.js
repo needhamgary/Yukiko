@@ -20,7 +20,7 @@ module.exports = {
             .setColor("PURPLE")
             .setTimestamp()
             .setFooter(bot.user.username, bot.user.displayAvatarURL)
-            .setTitle("Elva")
+            .setTitle("Eval")
             .addField("To Evaluate:", `\`\`\`js\n${beautify(args.join(" "), {format: "js"})}\n\`\`\``)
             .addField("Evaluated:", evaluated)
             .addField("Type of:", typeof(evaluated))
